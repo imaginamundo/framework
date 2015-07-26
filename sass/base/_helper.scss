@@ -1,0 +1,115 @@
+// Clearfix
+.clearfix {
+    overflow: auto;
+    *zoom: 1;
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+// Position
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+.clearfloat {
+    float: none;
+}
+
+// Box model
+.hide,
+.hidden {
+    display: none;
+}
+.block {
+    display: block;
+    width: 100%;
+}
+.margin {
+    margin: $default-spacing;
+}
+.margin-top {
+    margin-top: $default-spacing;
+}
+.margin-right {
+    margin-right: $default-spacing;
+}
+.margin-bottom {
+    margin-bottom: $default-spacing;
+}
+.margin-left {
+    margin-left: $default-spacing;
+}
+
+.padding {
+    padding: $default-spacing;
+}
+.padding-top {
+    margin-top: $default-spacing;
+}
+.padding-right {
+    margin-right: $default-spacing;
+}
+.padding-bottom {
+    margin-bottom: $default-spacing;
+}
+.padding-left {
+    padding-left: $default-spacing;
+}
+
+// Images
+.image-responsive {
+    max-width: 100%;
+}
+.image-center {
+    display: block;
+    margin: 0 auto;
+}
+
+// Typography
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.no-wrap {
+    white-space: nowrap;
+}
+
+// Responsive
+@media screen and (max-width: $responsive-break) {
+    // Position
+    .clearfloat-mobile {
+        float: none;
+    }
+
+    // Box Model
+    .hidden-mobile,
+    .hide-mobile {
+        display: none;
+    }
+    .block-mobile {
+        display: block;
+    }
+
+    // Typography
+    .text-right-mobile {
+        text-align: right;
+    }
+    .text-left-mobile {
+        text-align: left;
+    }
+    .text-center-mobile {
+        text-align: center;
+    }
+}

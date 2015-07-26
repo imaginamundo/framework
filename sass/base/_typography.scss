@@ -1,0 +1,46 @@
+body {
+	line-height: $base-line-height;
+	font-family: $font-family;
+	color: $text-color;
+}
+a {
+	color: $link-color;
+	&:hover {
+		color: $link-hover-color;
+	}
+}
+hr {
+	border: 0;
+	height: 1px;
+	background: $hr-background;
+}
+h1, h2, h3 {
+	font-family: $title-font-family;
+	line-height: $base-line-height;
+}
+p {
+	max-width: 760px;
+}
+dt {
+	font-weight: bold;
+}
+dd {
+	margin-left: 20px;
+}
+code {
+	padding: 5px;
+	background: rgb(239, 239, 239);
+	border: 1px solid #dedede;
+	border-radius: 5px;
+	color: #666;
+	font-weight: normal;
+}
+.code {
+	padding: 14px;
+	overflow: auto;
+	background: #EFEFEF;
+	border: 1px solid #dedede;
+	border-radius: 5px;
+	color: #666;
+	font-size: 14px;
+}

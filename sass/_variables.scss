@@ -1,0 +1,39 @@
+// Grid
+$container-max-width: 960px;
+
+// Typography
+$font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$title-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$base-line-height: 1.62em;
+
+$text-color: #333;
+$link-color: #0077aa;
+$link-hover-color: lighten($link-color, 8);
+
+$hr-background: #E5E5E5;
+
+// Buttons
+$btn-padding: .5em .8em;
+$btn-border-radius: 5px;
+
+$btn-background: #999;
+$btn-primary-background: #4A90E2;
+$btn-success-background: #7ED321;
+$btn-info-background: #89BBF5;
+$btn-warning-background: #F5A623;
+$btn-danger-background: tomato;
+
+// Form
+$form-padding-vertical: .5em;
+$form-padding-horizontal: .8em;
+
+// Helpers
+$default-spacing: 16px;
+
+// Responsive
+$responsive-break: 640px;
+
+// Plugins
+$fa-font-path: "../font/fontawesome";
+$fa-css-prefix: icon;

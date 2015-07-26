@@ -1,0 +1,40 @@
+input,
+button,
+textarea,
+select {
+	padding-top: $form-padding-vertical;
+	padding-right: $form-padding-horizontal;
+	padding-bottom: $form-padding-vertical;
+	padding-left: $form-padding-horizontal;
+	border: 1px solid rgba(0, 0, 0, .3);
+	border-radius: 4px;
+	box-sizing: border-box;
+	background: rgba(255, 255, 255, .5);
+	font-size: inherit;
+	font-weight: normal;
+	line-height: inherit;
+	outline: none;
+	transition: border .2s ease-in-out;
+	&:focus {
+		border: 1px solid rgba(0, 0, 0, .6);
+	}
+}
+textarea {
+	vertical-align: top;
+}
+select {
+	height: ($form-padding-vertical * 2) + $base-line-height;
+}
+button,
+input[type="button"],
+input[type="submit"] {
+	font-family: inherit;
+	cursor: pointer;
+	&:hover {
+		border: 1px solid rgba(0, 0, 0, .6);
+	}
+}
+.input-block {
+	display: block;
+	width: 100%;
+}

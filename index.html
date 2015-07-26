@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple css framework</title>
+	<meta name="description" content="Simple css framework" >
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+</head>
+	<body>
+		<div class="container">
+			<h1>Simple css framework</h1>
+			<h2>Buttons</h2>
+			<h3>Types</h3>
+			<p>
+				<a href="#">Link without class</a>
+				<code>&lt;a href="#"&gt;Link without class&lt;/a&gt;</code>
+			</p>
+			<p>
+				<a href="#" class="btn">Link with class</a>
+				<code>&lt;a href="#" class="btn"&gt;Link with class&lt;/a&gt;</code>
+			</p>
+			<p>
+				<input type="button" value="Input type button" />
+				<code>&lt;input type="button" value="Input type button"&gt;</code>
+			</p>
+
+			<p>
+				<button>Button tag</button>
+				<code>&lt;button&gt;Button tag&lt;/button&gt;</code>
+			</p>
+			<h3>Group</h3>
+			<p><i class="icon icon-fw icon-exclamation"></i>Need research</p>
+			<h3>Size</h3>
+			<p>They adjust their sizes accord the parent, like:</p>
+			<p>
+				<small><button>Button tag</button></small>
+				<code>&lt;small&gt;&lt;button&gt;Button tag&lt;/button&gt;&lt;small&gt;</code>
+			</p>
+			<h6>
+				<button>Button tag</button>
+				<code>&lt;h6&gt;&lt;button&gt;Button tag&lt;/button&gt;&lt;h6&gt;</code>
+			</h6>
+			<h3>Styles</h3>
+			<p>Classes like  <code>btn-primary</code> affect all type of buttons.</p>
+			<p>
+				<a href="#" class="btn btn-primary">btn-primary</a>
+				<code>&lt;a href="#" class="btn btn-primary"&gt;btn-primary&lt;/a&gt;</code>
+			</p>
+			<p>
+				<a href="#" class="btn btn-success">btn-success</a>
+				<a href="#" class="btn btn-info">btn-info</a>
+				<a href="#" class="btn btn-warning">btn-warning</a>
+				<a href="#" class="btn btn-danger">btn-danger</a>
+			</p>
+			<p>The class <code>btn-outline</code> change the style of the button.</p>
+			<p>
+				<a href="#" class="btn btn-outline">btn-outline</a>
+				<code>&lt;a href="#" class="btn btn-outline"&gt;btn-outline&lt;/a&gt;</code>
+			</p>
+			<p>The class <code>btn-rounded</code> change the border-style of the button.</p>
+			<p>
+				<a href="#" class="btn btn-rounded">btn-rounded</a>
+				<code>&lt;a href="#" class="btn btn-rounded"&gt;btn-rounded&lt;/a&gt;</code>
+			</p>
+			<h3>Mix to have different buttons</h3>
+			<p>
+				<a href="#" class="btn btn-outline btn-rounded btn-danger">Hello!</a>
+				<code>&lt;a href="#" class="btn btn-outline btn-rounded btn-warning"&gt;Hello!&lt;/a&gt;</code>
+			</p>
+			<h2>Form</h2>
+			<h3>Text inputs</h3>
+			<p>
+				<label>
+					Input text
+					<input type="text" />
+				</label>
+				<code>&lt;input type="text"&gt;</code>
+			</p>
+			<p>
+				<label>
+					Textarea
+					<textarea></textarea>
+				</label>
+				<code>&lt;textarea&gt;&lt;textarea&gt;</code>
+			</p>
+			<p>
+				Select
+				<select>
+					<option disabled selected>Choose one</option>
+					<option>Hello</option>
+					<option>World</option>
+				</select>
+			</p>
+			<pre class="code">&lt;select&gt;
+	&lt;option disabled="" selected=""&gt;Choose one&lt;/option&gt;
+	&lt;option&gt;Hello&lt;/option&gt;
+	&lt;option&gt;World&lt;/option&gt;
+&lt;/select&gt;</pre>
+			<h3>Option Inputs</h3>
+			<p><small>Tip: Use the checkbox/radio and the label inside a <code>label</code> tag.</small></p>
+			<p>
+				<label>
+					<input type="checkbox" />
+					Checkbox
+				</label>
+				<label class="margin-left">
+					<input type="checkbox" />
+					Checkbox
+				</label>
+				<code>&lt;input type="checkbox"&gt;</code>
+			</p>
+			<p>
+				<label>
+					<input type="radio" name="radio" />
+					Radio
+				</label>
+				<label class="margin-left">
+					<input type="radio" name="radio" />
+					Radio
+				</label>
+				<code>&lt;input type="radio"&gt;</code>
+			</p>
+			<h2>Helpers</h2>
+			<h3>Right & Left</h3>
+			<p>Float to the element. <code>.left</code> & <code>.right</code></p>
+			<h3>Clearfix</h3>
+			<p>Adjust de container size with elements with floats inside.</p>
+			<p>Use the class <code>.clearfix</code> if you have this little issue.</p>
+			<h3>No wrap</h3>
+			<p>Don't let the line break, useful using in links with icon, when the icon gets in first line or the opposite</p>
+			<p><code>.no-wrap</code> get the text in line.</p>
+			<h3>Text align</h3>
+			<p><code>.text-left</code>, <code>.text-center</code> and <code>.text-right</code> will just align the text.</p>
+		</div>
+	</body>
+</html>
+<link rel="stylesheet" href="css/styles.css">

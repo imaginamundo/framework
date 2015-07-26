@@ -1,0 +1,86 @@
+.btn,
+button,
+input[type="button"],
+input[type="submit"] {
+    display: inline-block;
+    margin-bottom: 3px;
+    padding: $btn-padding;
+    box-sizing: border-box;
+    background: $btn-background;
+    border: 1px solid transparent;
+    border-radius: $btn-border-radius;
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: .2s background ease-in-out,
+                .2s border ease-in-out;
+    &:hover {
+        background: darken($btn-background, 5);
+        border: 1px solid transparent;
+        color: #fff;
+    }
+    &:focus {
+        border: 1px solid transparent;
+    }
+    &.btn-outline {
+        background: none;
+        border-color: $btn-background;
+        color: $btn-background;
+        &:hover {
+            background: rgba(0, 0, 0, .05);
+        }
+    }
+}
+.btn-rounded {
+    border-radius: 50px;
+}
+.btn-primary {
+    background: $btn-primary-background;
+    &:hover {
+        background: darken($btn-primary-background, 5);
+    }
+    &.btn-outline {
+        border-color: $btn-primary-background;
+        color: $btn-primary-background;
+    }
+}
+.btn-success {
+    background: $btn-success-background;
+    &:hover {
+        background: darken($btn-success-background, 5);
+    }
+    &.btn-outline {
+        border-color: $btn-success-background;
+        color: $btn-success-background;
+    }
+}
+.btn-info {
+    background: $btn-info-background;
+    &:hover {
+        background: darken($btn-info-background, 5);
+    }
+    &.btn-outline {
+        border-color: $btn-info-background;
+        color: $btn-info-background;
+    }
+}
+.btn-warning {
+    background: $btn-warning-background;
+    &:hover {
+        background: darken($btn-warning-background, 5);
+    }
+    &.btn-outline {
+        border-color: $btn-warning-background;
+        color: $btn-warning-background;
+    }
+}
+.btn-danger {
+    background: $btn-danger-background;
+    &:hover {
+        background: darken($btn-danger-background, 5);
+    }
+    &.btn-outline {
+        border-color: $btn-danger-background;
+        color: $btn-danger-background;
+    }
+}
