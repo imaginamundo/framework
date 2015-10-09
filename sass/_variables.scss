@@ -14,7 +14,8 @@ $link-hover-color: lighten($link-color, 8);
 $hr-background: #E5E5E5;
 
 // Buttons
-$btn-padding: .5em .8em;
+$btn-height: 3em;
+$btn-padding: .7em .8em;
 $btn-border-radius: 5px;
 
 $btn-background: #999;
@@ -25,6 +26,7 @@ $btn-warning-background: #F5A623;
 $btn-danger-background: tomato;
 
 // Form
+$form-height: 3em;
 $form-padding-vertical: .5em;
 $form-padding-horizontal: .8em;
 

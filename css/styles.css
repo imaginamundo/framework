@@ -1797,10 +1797,9 @@ input,
 button,
 textarea,
 select {
-  padding-top: 0.5em;
   padding-right: 0.8em;
-  padding-bottom: 0.5em;
   padding-left: 0.8em;
+  height: 3em;
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 4px;
   box-sizing: border-box;
@@ -1809,7 +1808,8 @@ select {
   font-weight: normal;
   line-height: inherit;
   outline: none;
-  transition: border .2s ease-in-out; }
+  transition: border .2s ease-in-out;
+  vertical-align: middle; }
   input:focus,
   button:focus,
   textarea:focus,
@@ -1817,10 +1817,12 @@ select {
     border: 1px solid rgba(0, 0, 0, 0.6); }
 
 textarea {
-  vertical-align: top; }
+  vertical-align: top;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em; }
 
 select {
-  height: 2.62em; }
+  height: 3em; }
 
 button,
 input[type="button"],
@@ -1841,8 +1843,7 @@ button,
 input[type="button"],
 input[type="submit"] {
   display: inline-block;
-  margin-bottom: 3px;
-  padding: 0.5em 0.8em;
+  height: 3em;
   box-sizing: border-box;
   background: #999;
   border: 1px solid transparent;
@@ -1850,7 +1851,8 @@ input[type="submit"] {
   color: #fff;
   text-decoration: none;
   white-space: nowrap;
-  transition: .2s background ease-in-out, .2s border ease-in-out; }
+  transition: .2s background ease-in-out, .2s border ease-in-out;
+  vertical-align: middle; }
   .btn:hover,
   button:hover,
   input[type="button"]:hover,
@@ -1875,6 +1877,9 @@ input[type="submit"] {
     input[type="button"].btn-outline:hover,
     input[type="submit"].btn-outline:hover {
       background: rgba(0, 0, 0, 0.05); }
+
+a.btn {
+  padding: 0.7em 0.8em; }
 
 .btn-rounded {
   border-radius: 50px; }

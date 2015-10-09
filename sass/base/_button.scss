@@ -3,8 +3,7 @@ button,
 input[type="button"],
 input[type="submit"] {
     display: inline-block;
-    margin-bottom: 3px;
-    padding: $btn-padding;
+    height: $btn-height;
     box-sizing: border-box;
     background: $btn-background;
     border: 1px solid transparent;
@@ -14,6 +13,7 @@ input[type="submit"] {
     white-space: nowrap;
     transition: .2s background ease-in-out,
                 .2s border ease-in-out;
+    vertical-align: middle;
     &:hover {
         background: darken($btn-background, 5);
         border: 1px solid transparent;
@@ -29,6 +29,11 @@ input[type="submit"] {
         &:hover {
             background: rgba(0, 0, 0, .05);
         }
+    }
+}
+a {
+    &.btn {
+        padding: $btn-padding;
     }
 }
 .btn-rounded {

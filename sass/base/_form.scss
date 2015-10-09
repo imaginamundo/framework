@@ -2,10 +2,9 @@ input,
 button,
 textarea,
 select {
-	padding-top: $form-padding-vertical;
 	padding-right: $form-padding-horizontal;
-	padding-bottom: $form-padding-vertical;
 	padding-left: $form-padding-horizontal;
+	height: $form-height;
 	border: 1px solid rgba(0, 0, 0, .3);
 	border-radius: 4px;
 	box-sizing: border-box;
@@ -15,15 +14,18 @@ select {
 	line-height: inherit;
 	outline: none;
 	transition: border .2s ease-in-out;
+	vertical-align: middle;
 	&:focus {
 		border: 1px solid rgba(0, 0, 0, .6);
 	}
 }
 textarea {
 	vertical-align: top;
+	padding-top: $form-padding-vertical;
+	padding-bottom: $form-padding-vertical;
 }
 select {
-	height: ($form-padding-vertical * 2) + $base-line-height;
+	height: $form-height;
 }
 button,
 input[type="button"],
