@@ -7,11 +7,13 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<link rel="stylesheet" href="css/styles.css">
+
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 </head>
 	<body>
 		<div class="container">
-			<h1>Simple css framework</h1>
+			<h1>H1 - Simple css framework</h1>
 			<h2>Buttons</h2>
 			<h3>Types</h3>
 			<p>
@@ -19,20 +21,19 @@
 				<code>&lt;a href="#"&gt;Link without class&lt;/a&gt;</code>
 			</p>
 			<p>
-				<a href="#" class="btn">Link with class</a>
-				<code>&lt;a href="#" class="btn"&gt;Link with class&lt;/a&gt;</code>
+				<a href="#" class="without-underline">Link without underline</a>
+				<code>&lt;a href="#"&gt;Link without class&lt;/a&gt;</code>
 			</p>
 			<p>
-				<input type="button" value="Input type button" />
-				<code>&lt;input type="button" value="Input type button"&gt;</code>
+				<a href="#" class="btn">Button link</a>
+				<code>&lt;a href="#" class="btn"&gt;Link with class&lt;/a&gt;</code>
 			</p>
-
 			<p>
 				<button>Button tag</button>
 				<code>&lt;button&gt;Button tag&lt;/button&gt;</code>
 			</p>
 			<h3>Group</h3>
-			<p><i class="icon icon-fw icon-exclamation"></i>Need research</p>
+			<p>Need research</p>
 			<h3>Size</h3>
 			<p>They adjust their sizes accord the parent, like:</p>
 			<p>
@@ -123,6 +124,73 @@
 				</label>
 				<code>&lt;input type="radio"&gt;</code>
 			</p>
+
+			<article>
+				<h2>Typography</h2>
+				<h1>H1 Heading inside article tag</h1>
+				<h2>H2 Heading</h2>
+				<h3>H3 Heading</h3>
+				<h4>H4 Heading</h4>
+				<h5>H5 Heading</h5>
+				<h6>H6 Heading</h6>
+				<p>Paragraph.</p>
+				<h3>Lists</h3>
+				<ol>
+					<li>First item</li>
+					<li>Second item</li>
+					<li>Third item</li>
+				</ol>
+				<ul>
+					<li>List without order</li>
+					<li>Second item</li>
+					<li>Third item</li>
+				</ul>
+			</article>
+
+			<h2>Tooltips (from <a href="http://primercss.io/tooltips/" target="_blank">PrimerCSS</a>)</h2>
+			<ul class="unstyled">
+				<li>
+					<span class="tooltipped tooltipped-n border inline-block half-padding" aria-label="This is the tooltip.">
+						Tooltip North
+					</span>
+				</li>
+				<li>
+					<span class="tooltipped tooltipped-ne border inline-block half-padding" aria-label="This is the tooltip.">
+						Tooltip North East
+					</span>
+				</li>
+				<li>
+					<span class="tooltipped tooltipped-e border inline-block half-padding" aria-label="This is the tooltip.">
+						Tooltip East
+					</span>
+				</li>
+				<li>
+					<span class="tooltipped tooltipped-se border inline-block half-padding" aria-label="This is the tooltip.">
+						Tooltip South East
+					</span>
+				</li>
+				<li>
+					<span class="tooltipped tooltipped-s border inline-block half-padding" aria-label="This is the tooltip.">
+						Tooltip South
+					</span>
+				</li>
+				<li>
+					<span class="tooltipped tooltipped-sw border inline-block half-padding" aria-label="This is the tooltip.">
+						Tooltip South West
+					</span>
+				</li>
+				<li>
+					<span class="tooltipped tooltipped-w border inline-block half-padding" aria-label="This is the tooltip.">
+						Tooltip West
+					</span>
+				</li>
+				<li>
+					<span class="tooltipped tooltipped-nw border inline-block half-padding" aria-label="This is the tooltip.">
+						Tooltip North West
+					</span>
+				</li>
+			</ul>
+
 			<h2>Helpers</h2>
 			<h3>Right & Left</h3>
 			<p>Float to the element. <code>.left</code> & <code>.right</code></p>
@@ -137,4 +205,3 @@
 		</div>
 	</body>
 </html>
-<link rel="stylesheet" href="css/styles.css">

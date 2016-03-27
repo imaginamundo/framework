@@ -1,10 +1,9 @@
 // Clearfix
 .clearfix {
-    overflow: auto;
     *zoom: 1;
     &:before,
     &:after {
-        content: " ";
+        content: ' ';
         display: table;
     }
     &:after {
@@ -29,8 +28,11 @@
 }
 .block {
     display: block;
-    width: 100%;
 }
+.inline-block {
+    display: inline-block;
+}
+
 .margin {
     margin: $default-spacing;
 }
@@ -45,6 +47,38 @@
 }
 .margin-left {
     margin-left: $default-spacing;
+}
+
+.half-margin {
+    margin: $default-spacing / 2;
+}
+.half-margin-top {
+    margin-top: $default-spacing / 2;
+}
+.half-margin-right {
+    margin-right: $default-spacing / 2;
+}
+.half-margin-bottom {
+    margin-bottom: $default-spacing / 2;
+}
+.half-margin-left {
+    margin-left: $default-spacing / 2;
+}
+
+.margin-clear {
+    margin: 0;
+}
+.margin-top-clear {
+    margin-top: 0;
+}
+.margin-right-clear {
+    margin-right: 0;
+}
+.margin-bottom-clear {
+    margin-bottom: 0;
+}
+.margin-left-clear {
+    margin-left: 0;
 }
 
 .padding {
@@ -63,6 +97,38 @@
     padding-left: $default-spacing;
 }
 
+.half-padding {
+    padding: $default-spacing / 2;
+}
+.half-padding-top {
+    margin-top: $default-spacing / 2;
+}
+.half-padding-right {
+    margin-right: $default-spacing / 2;
+}
+.half-padding-bottom {
+    margin-bottom: $default-spacing / 2;
+}
+.half-padding-left {
+    padding-left: $default-spacing / 2;
+}
+
+.padding-clear {
+    padding: 0;
+}
+.padding-top-clear {
+    margin-top: 0;
+}
+.padding-right-clear {
+    margin-right: 0;
+}
+.padding-bottom-clear {
+    margin-bottom: 0;
+}
+.padding-left-clear {
+    padding-left: 0;
+}
+
 // Images
 .image-responsive {
     max-width: 100%;
@@ -73,6 +139,11 @@
 }
 
 // Typography
+a.without-underline {
+    text-shadow: none;
+    background: none;
+}
+
 .text-right {
     text-align: right;
 }
@@ -84,6 +155,11 @@
 }
 .no-wrap {
     white-space: nowrap;
+}
+
+// Appearance
+.border {
+    border: 1px solid #e5e5e5;
 }
 
 // Responsive

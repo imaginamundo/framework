@@ -9,24 +9,39 @@ $base-line-height: 1.62em;
 
 $text-color: #333;
 $link-color: #0077aa;
-$link-hover-color: lighten($link-color, 8);
+$link-hover-color: darken($link-color, 8);
 
 $hr-background: #E5E5E5;
 
+// Colors
+$default: #999;
+$primary: #4A90E2;
+$success: #7ED321;
+$info: #89BBF5;
+$warning: #F5A623;
+$danger: tomato;
+
+
 // Buttons
-$btn-padding: .5em .8em;
+$btn-height: 3em;
+$btn-padding: .7em .8em;
 $btn-border-radius: 5px;
 
-$btn-background: #999;
-$btn-primary-background: #4A90E2;
-$btn-success-background: #7ED321;
-$btn-info-background: #89BBF5;
-$btn-warning-background: #F5A623;
-$btn-danger-background: tomato;
+$btn-background: $default;
+$btn-primary-background: $primary;
+$btn-success-background: $success;
+$btn-info-background: $info;
+$btn-warning-background: $warning;
+$btn-danger-background: $danger;
 
 // Form
+$form-height: 3em;
 $form-padding-vertical: .5em;
 $form-padding-horizontal: .8em;
+
+$form-background: rgba(255, 255, 255, .5);
+$form-border: 1px solid rgba(0, 0, 0, .3);
+$form-border-radius: 4px;
 
 // Helpers
 $default-spacing: 16px;
@@ -37,3 +52,10 @@ $responsive-break: 640px;
 // Plugins
 $fa-font-path: "../font/fontawesome";
 $fa-css-prefix: icon;
+
+// Tooltip (from primercss)
+$tooltip-max-width: 250px !default;
+$tooltip-text-color: #fff;
+$tooltip-background-color: rgba(0, 0, 0, 0.8);
+$tooltip-delay: 0.4s !default;
+$tooltip-duration: 0.1s !default;
