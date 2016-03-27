@@ -1,0 +1,61 @@
+// Grid
+$container-max-width: 960px !default;
+
+// Typography
+$font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$title-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+
+$base-line-height: 1.62em !default;
+
+$text-color: #333 !default;
+$link-color: #0077aa !default;
+$link-hover-color: darken($link-color, 8) !default;
+
+$hr-background: #E5E5E5  !default;
+
+// Colors
+$default: #999 !default;
+$primary: #4A90E2 !default;
+$success: #7ED321 !default;
+$info: #89BBF5 !default;
+$warning: #F5A623 !default;
+$danger: tomato !default;
+
+
+// Buttons
+$btn-height: 3em !default;
+$btn-padding: .7em .8em !default;
+$btn-border-radius: 5px !default;
+
+$btn-background: $default !default;
+$btn-primary-background: $primary !default;
+$btn-success-background: $success !default;
+$btn-info-background: $info !default;
+$btn-warning-background: $warning !default;
+$btn-danger-background: $danger !default;
+
+// Form
+$form-height: 3em !default;
+$form-padding-vertical: .5em !default;
+$form-padding-horizontal: .8em !default;
+
+$form-background: rgba(255, 255, 255, .5) !default;
+$form-border: 1px solid rgba(0, 0, 0, .3) !default;
+$form-border-radius: 4px !default;
+
+// Helpers
+$default-spacing: 16px !default;
+
+// Responsive
+$responsive-break: 640px !default;
+
+// Plugins
+// $fa-font-path: "../font/fontawesome" !default;
+// $fa-css-prefix: icon !default;
+
+// Tooltip (from primercss)
+$tooltip-max-width: 250px !default;
+$tooltip-text-color: #fff !default;
+$tooltip-background-color: rgba(0, 0, 0, 0.8) !default;
+$tooltip-delay: 0.2s !default;
+$tooltip-duration: 0.1s !default;

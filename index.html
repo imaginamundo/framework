@@ -7,7 +7,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="asset/css/styles.min.css">
 
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 </head>
@@ -134,64 +134,84 @@
 				<h5>H5 Heading</h5>
 				<h6>H6 Heading</h6>
 				<p>Paragraph.</p>
-				<h3>Lists</h3>
-				<ol>
-					<li>First item</li>
-					<li>Second item</li>
-					<li>Third item</li>
-				</ol>
-				<ul>
-					<li>List without order</li>
-					<li>Second item</li>
-					<li>Third item</li>
-				</ul>
 			</article>
 
-			<h2>Tooltips (from <a href="http://primercss.io/tooltips/" target="_blank">PrimerCSS</a>)</h2>
+			<h3>Ordered list</h3>
+			<ol>
+				<li>First item</li>
+				<li>Second item</li>
+				<li>Third item</li>
+			</ol>
+			<h3>Unordered list</h3>
+			<ul>
+				<li>First item</li>
+				<li>Second item</li>
+				<li>Third item</li>
+			</ul>
+
+			<h3>Unstyled list</h3>
 			<ul class="unstyled">
-				<li>
+				<li>First item</li>
+				<li>Second item</li>
+				<li>Third item</li>
+			</ul>
+			<pre class="code">&lt;ul class="unstyled"&gt;
+	…
+&lt;/ul&gt;</pre>
+
+			<h2>Tooltips (from <a href="http://primercss.io/tooltips/" target="_blank">PrimerCSS</a>)</h2>
+			<div class="text-center">
+				<p>
 					<span class="tooltipped tooltipped-n border inline-block half-padding" aria-label="This is the tooltip.">
 						Tooltip North
 					</span>
-				</li>
-				<li>
+					<pre class="code">class="tooltipped tooltipped-n" aria-label="This is the tooltip."</pre>
+				</p>
+				<p>
 					<span class="tooltipped tooltipped-ne border inline-block half-padding" aria-label="This is the tooltip.">
 						Tooltip North East
 					</span>
-				</li>
-				<li>
+					<pre class="code">class="tooltipped tooltipped-ne" aria-label="This is the tooltip."</pre>
+				</p>
+				<p>
 					<span class="tooltipped tooltipped-e border inline-block half-padding" aria-label="This is the tooltip.">
 						Tooltip East
 					</span>
-				</li>
-				<li>
+					<pre class="code">class="tooltipped tooltipped-e" aria-label="This is the tooltip."</pre>
+				</p>
+				<p>
 					<span class="tooltipped tooltipped-se border inline-block half-padding" aria-label="This is the tooltip.">
 						Tooltip South East
 					</span>
-				</li>
-				<li>
+					<pre class="code">class="tooltipped tooltipped-se" aria-label="This is the tooltip."</pre>
+				</p>
+				<p>
 					<span class="tooltipped tooltipped-s border inline-block half-padding" aria-label="This is the tooltip.">
 						Tooltip South
 					</span>
-				</li>
-				<li>
+					<pre class="code">class="tooltipped tooltipped-s" aria-label="This is the tooltip."</pre>
+				</p>
+				<p>
 					<span class="tooltipped tooltipped-sw border inline-block half-padding" aria-label="This is the tooltip.">
 						Tooltip South West
 					</span>
-				</li>
-				<li>
+					<pre class="code">class="tooltipped tooltipped-sw" aria-label="This is the tooltip."</pre>
+				</p>
+				<p>
 					<span class="tooltipped tooltipped-w border inline-block half-padding" aria-label="This is the tooltip.">
 						Tooltip West
 					</span>
-				</li>
-				<li>
+					<pre class="code">class="tooltipped tooltipped-w" aria-label="This is the tooltip."</pre>
+				</p>
+				<p>
 					<span class="tooltipped tooltipped-nw border inline-block half-padding" aria-label="This is the tooltip.">
 						Tooltip North West
 					</span>
-				</li>
-			</ul>
+					<pre class="code">class="tooltipped tooltipped-nw" aria-label="This is the tooltip."</pre>
+				</p>
+			</div>
 
-			<h2>Helpers</h2>
+			<h2>Utilities</h2>
 			<h3>Right & Left</h3>
 			<p>Float to the element. <code>.left</code> & <code>.right</code></p>
 			<h3>Clearfix</h3>
@@ -201,7 +221,17 @@
 			<p>Don't let the line break, useful using in links with icon, when the icon gets in first line or the opposite</p>
 			<p><code>.no-wrap</code> get the text in line.</p>
 			<h3>Text align</h3>
-			<p><code>.text-left</code>, <code>.text-center</code> and <code>.text-right</code> will just align the text.</p>
+			<p><code>.text-left</code>, <code>.text-center</code> and <code>.text-right</code> will align the text.</p>
+			<h3>Margin & Padding</h3>
+			<p><code>.margin & .padding</code> add margin or padding to all sides.</p>
+			<pre class="code">
+.margin-top, .margin-right, .margin-bottom, .margin-left
+&
+.padding-top, .padding-right, .padding-bottom, .padding-left</pre>
+			<p>
+				add margin or padding to selected side.
+			</p>
+			<p><code>.margin-h, .margin-v & .padding-h, .padding-v</code> add margin vertically or horizontally.</p>
 		</div>
 	</body>
 </html>
