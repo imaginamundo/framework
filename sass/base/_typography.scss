@@ -45,7 +45,7 @@ h1, h2, h3 {
 	line-height: $base-line-height;
 }
 p {
-	max-width: 760px;
+	// max-width: 760px;
 }
 dt {
 	font-weight: bold;
@@ -69,4 +69,8 @@ code {
 	border-radius: 5px;
 	color: #666;
 	font-size: 14px;
+}
+.unstyled {
+	list-style: none;
+	padding-left: 0;
 }

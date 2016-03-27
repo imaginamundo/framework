@@ -28,7 +28,9 @@
 }
 .block {
     display: block;
-    width: 100%;
+}
+.inline-block {
+    display: inline-block;
 }
 
 .margin {
@@ -153,6 +155,11 @@ a.without-underline {
 }
 .no-wrap {
     white-space: nowrap;
+}
+
+// Appearance
+.border {
+    border: 1px solid #e5e5e5;
 }
 
 // Responsive
