@@ -408,8 +408,8 @@ a.without-underline {
           animation-fill-mode: forwards;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s; }
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
 
 .tooltipped-no-delay:hover::before, .tooltipped-no-delay:hover::after,
 .tooltipped-no-delay:active::before,
