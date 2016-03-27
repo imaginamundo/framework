@@ -9,7 +9,7 @@ $base-line-height: 1.62em;
 
 $text-color: #333;
 $link-color: #0077aa;
-$link-hover-color: lighten($link-color, 8);
+$link-hover-color: darken($link-color, 8);
 
 $hr-background: #E5E5E5;
 
@@ -29,6 +29,10 @@ $btn-danger-background: tomato;
 $form-height: 3em;
 $form-padding-vertical: .5em;
 $form-padding-horizontal: .8em;
+
+$form-background: rgba(255, 255, 255, .5);
+$form-border: 1px solid rgba(0, 0, 0, .3);
+$form-border-radius: 4px;
 
 // Helpers
 $default-spacing: 16px;

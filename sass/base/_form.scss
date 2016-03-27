@@ -5,10 +5,10 @@ select {
 	padding-right: $form-padding-horizontal;
 	padding-left: $form-padding-horizontal;
 	height: $form-height;
-	border: 1px solid rgba(0, 0, 0, .3);
-	border-radius: 4px;
+	background: $form-background;
+	border: $form-border;
+	border-radius: $form-border-radius;
 	box-sizing: border-box;
-	background: rgba(255, 255, 255, .5);
 	font-size: inherit;
 	font-weight: normal;
 	line-height: inherit;
@@ -23,9 +23,7 @@ textarea {
 	vertical-align: top;
 	padding-top: $form-padding-vertical;
 	padding-bottom: $form-padding-vertical;
-}
-select {
-	height: $form-height;
+	height: auto;
 }
 button,
 input[type="button"],
@@ -36,7 +34,9 @@ input[type="submit"] {
 		border: 1px solid rgba(0, 0, 0, .6);
 	}
 }
-.input-block {
-	display: block;
-	width: 100%;
+input[type="radio"],
+input[type="checkbox"] {
+	padding: 0;
+	height: auto;
+	vertical-align: baseline;
 }
